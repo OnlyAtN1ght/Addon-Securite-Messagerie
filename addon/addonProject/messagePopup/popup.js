@@ -1,4 +1,3 @@
-import {encryptText} from "./sm4.js"
 
 async function load() {
   console.log("MESSAGE POPUP DETAILS LOADED");
@@ -19,7 +18,6 @@ async function buttonDecrypteClicked(){
 
 
 async function buttonClicked(){
-console.log(encryptText("TEST"))
 
   console.log("Clicked")
   let tabs = await messenger.tabs.query({active: true, currentWindow: true});

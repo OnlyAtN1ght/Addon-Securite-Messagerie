@@ -17,7 +17,7 @@
     },
     "compose_action": {
         "default_popup": "messagePopup/popup.html",
-        "default_title": "Details",
+        "default_title": "Crypto",
         "default_icon": "images/internet-32px.png"
     },
     "background": {
